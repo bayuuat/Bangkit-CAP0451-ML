@@ -34,6 +34,10 @@ The data that we use is 2000 for each class so that there is no imbalance in the
 
 ![image](https://user-images.githubusercontent.com/68576415/121238236-16672080-c8c2-11eb-9e75-2538f163f2be.png)
 
-### Adjust the value when preparing the dataset and when predicting
+### Adjust the value in the notebook
 - Image size for baseline and Xception model is 250 by 250
 - Image size for Imagenet and vgg16 model is 224 by 224
+- Filename to save the model as you want
+
+### Saved model for vgg16
+https://drive.google.com/file/d/1yzoSUtiqwuaKuCoaNtfYQTYBY_myLZeC/view?usp=sharing
