@@ -1,10 +1,15 @@
-# Bangkit-CAP0451-ML
+# Bangkit-CAP0451-Machine Learning Repository
 
-1. App Object Detection TF
+Author:
 
-![432951](https://user-images.githubusercontent.com/68576415/119520052-23552180-bda4-11eb-8071-434b0dd6af23.png)
-![432949](https://user-images.githubusercontent.com/68576415/119520061-251ee500-bda4-11eb-822f-919ba62e9c35.png)
+Bayu Aditya Triwibowo (M0040326)
+Dwi Cahya Nur Faizi (M0040327)
 
-2. App Image Classification TF
+Dataset Overview
+We will use our Sign Language dataset, which was created from combining American Sign Language Letters Dataset v1 from Roboflow and our own dataset that we created using our team android devices. You can find the dataset in here
 
-![432950](https://user-images.githubusercontent.com/68576415/119520067-26501200-bda4-11eb-8864-9febf71d3504.png)
+Each image in the dataset contains objects labeled as one of the following classes:
+
+Alphabet from [A - Y] without J and Z, we exclude this two characters as it is required motion to perform.
+The dataset contains the bounding-boxes specifying where each object locates, together with the object's label.
+Here is some example images from the dataset:
