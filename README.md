@@ -30,6 +30,10 @@ Our dataset has 17 classes consisting of 3 classes of healthy plants and 14 clas
 | Tomato_Tomato_Yellow_Leaf_Curl_Virus | 2000 Files |
 | Tomato_Tomato_mosaic_virus | 2000 Files |
 
-The data that we use is 2000 for each class so that there is no imbalance in the dataset that we use. The data we get is already in augmented condition, making it easier for us to process data that does not require long coding. All this data we use in the model so that the output of the model is worth 17 class. Here is some example images from the dataset:]
+The data that we use is 2000 for each class so that there is no imbalance in the dataset that we use. The data we get is already in augmented condition, making it easier for us to process data that does not require long coding. All this data we use in the model so that the output of the model is worth 17 class. Here is some example images from the dataset:
 
 ![image](https://user-images.githubusercontent.com/68576415/121238236-16672080-c8c2-11eb-9e75-2538f163f2be.png)
+
+### Adjust the value when preparing the dataset and when predicting
+- Image size for baseline and Xception model is 250 by 250
+- Image size for Imagenet and vgg16 model is 224 by 224
